@@ -1,0 +1,27 @@
+{
+  "name": "todolistapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeasleygtr/todoListAPI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeasleygtr/todoListAPI/issues"
+  },
+  "homepage": "https://github.com/jeasleygtr/todoListAPI#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.0.16"
+  }
+}
